@@ -1,18 +1,20 @@
 package com.niit.dao;
 
-import static org.junit.Assert.assertNotNull;
+
 
 import java.util.List;
 
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.niit.models.Supplier;
+import com.niit.dao.SupplierDao;
+
+
 
 @Repository("supplierDAO")
 @Transactional
