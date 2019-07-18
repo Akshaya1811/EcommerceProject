@@ -1,15 +1,17 @@
 package com.niit.dao;
 
 
-
 import java.util.List;
-import java.util.function.Supplier;
+
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.niit.models.Supplier;
 
 
 
